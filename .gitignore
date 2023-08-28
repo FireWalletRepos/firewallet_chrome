@@ -29,3 +29,4 @@ yarn-error.log*
 
 #files with env data
 ./api/etherscan.js
+notes.txt
