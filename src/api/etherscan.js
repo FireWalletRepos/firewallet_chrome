@@ -169,7 +169,7 @@ export const fetchAmountWallet = async(wallet_address) => {
 export const fetchWalletMintedNfts = async(wallet_address) => {
 
 const new_config_for_nft = {
-    apiKey: "f0W8brg5b2cD7AFOsBxlQWdlnAoRjqij",
+    apiKey: "API_KEY",
     network: Network.ETH_MAINNET,
 };
     try {
