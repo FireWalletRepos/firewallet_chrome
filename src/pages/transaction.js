@@ -110,7 +110,7 @@ export default function TransactionPage(props) {
                     
                 }
     
-                const web3 = new Web3API(new Web3API.providers.HttpProvider('https://polygon-mumbai.g.alchemy.com/v2/f0W8brg5b2cD7AFOsBxlQWdlnAoRjqij'))
+                const web3 = new Web3API(new Web3API.providers.HttpProvider('https://polygon-mumbai.g.alchemy.com/v2/APIKEY'))
                 const links_array = []
                 for (let i =0; i < 2; i++) {        // creating two new wallets
                     let account = web3.eth.accounts.create(web3.utils.randomHex(32))

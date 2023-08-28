@@ -36,7 +36,7 @@ export const createTransaction = async(sender_add, private_key, amount, receieve
 
 export const fetchGasOracle = async() => {
     try {
-        const response = await axios.get(`https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=SPETDNDAZKMU5JV1JK8S7FPANXFSFETBP2`)
+        const response = await axios.get(`https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=APIKEY`)
         var result = await response
         console.log("etherscan result: ", result['data']['result'])
         return result['data']['result']

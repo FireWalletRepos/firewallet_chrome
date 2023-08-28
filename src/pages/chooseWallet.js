@@ -142,7 +142,7 @@ export default function ChooseWalletPage(props) {
 
     const generateWallet = async () => {
         console.log("Generating Wallet")
-        const web3 = new Web3API(new Web3API.providers.HttpProvider('https://polygon-mumbai.g.alchemy.com/v2/f0W8brg5b2cD7AFOsBxlQWdlnAoRjqij'))
+        const web3 = new Web3API(new Web3API.providers.HttpProvider('https://polygon-mumbai.g.alchemy.com/v2/APIKey'))
         let account = web3.eth.accounts.create(web3.utils.randomHex(32))
         let wallet = web3.eth.accounts.wallet.add(account)
         let keystore = wallet.encrypt(web3.utils.randomHex(32))
