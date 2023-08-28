@@ -1,0 +1,1033 @@
+.App {
+  padding: 5px;
+  text-align: center;
+  background: white;
+  color:#211912;
+  height: 500px;
+  font-family: 'Varela Round', sans-serif;
+
+  
+
+}
+
+.title {
+  font-size: 40px;
+  margin-top: 4px;
+
+}
+
+.subTitle {
+  font-size: 19px;
+  font-style: italic
+}
+
+.signUpButton button {
+  background: #F8EDEB;
+  color: #F8EDEB;
+  width: 180px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+  
+}
+
+.passwordInput input {
+  border: none;
+  padding: 5px;
+  
+  border-bottom: 5px solid black;
+  color: #8a817c;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  width: 200px;
+  animation: color 2s ease infinite;
+  border-radius: 10px;
+  
+}
+
+@keyframes color {
+  0% {
+    border:  2px solid #ff006e
+  }
+
+  20% {
+    border: 2px solid #fb5607
+  }
+
+  40% {
+    border: 2px solid #ffbe0b
+  }
+
+  60% {
+    border: 2px solid #2a9d8f
+  }
+
+  80% {
+    border: 2px solid #3a86ff
+  }
+
+  100%{
+    border: 2px solid #8338ec
+
+   }
+}
+
+.alreadyButton button {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #c89f9c;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  font-style: italic;
+
+}
+
+.signInButton {
+  width: 200px;
+  font-size: 16px;
+  padding: 2px;
+  margin-top: 20px;
+  border-radius: 10px; 
+  background: linear-gradient(to right,#48cae4, #90e0ef, #ade8f4);
+  color: white;
+  
+
+  
+
+}
+
+
+.warningMessage {
+  font-size: 10px;
+  margin-top: 40px;
+}
+
+.CreateAccountButton {
+  
+  background: #00b4d8;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+
+
+.randomSeedTitle {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.randomWords {
+  margin-top: 10px;
+}
+
+.continueButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background: #f7b267;
+  margin: 5px;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+  width: 100px;
+}
+
+
+.createWalletButton {
+  width: 200px;
+  padding: 2px;
+  margin-top: 20px;
+  border-radius: 10px; 
+  font-size: 16px;
+  background: linear-gradient(to right,#48cae4, #90e0ef, #ade8f4);
+  color: white;
+  border: none;
+  animation: color 2s ease infinite;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.walletBox {
+  width: 250px;
+  min-height: 30px;
+  max-height: 300px;
+  background: white;
+  padding: 10px;
+  border-radius: 40px;
+  overflow-y: scroll;
+  margin-top: 30px;
+  
+
+}
+
+.walletBox::-webkit-scrollbar {
+  display: none;
+}
+
+.walletBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.walletButton {
+  font-size: 12px;
+  border-bottom: 2px solid #edede9;
+  margin-bottom: 5px;
+
+
+}
+ .box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+ }
+
+.tokensList {
+  margin-top: 10px;
+  max-height: 100px;
+  height: auto;
+  overflow-y: scroll;
+  
+}
+
+.tokensList::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.tokensList {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+ .tokenBox {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  
+ }
+
+
+.changeColorBox {
+  display: flex;
+
+  
+
+}
+
+
+.dropbtn {
+  background-color: rgb(242, 241, 241);
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.dropEmojibtn {
+  background-color: rgb(242, 241, 241);
+  color: black;
+  padding: 10px;
+  width: 40px;
+  height: 40px; 
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 20px;
+
+}
+
+.dropdown {
+  position: relative;
+  margin-bottom: -100px;
+
+  height: 100px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+  height: 100px;
+  
+  overflow-y: scroll;
+  text-align: center;
+
+  font-size: 12px;
+}
+
+
+.dropdown-content::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.dropdown-content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {background-color: #ddd; width:100px;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #cccccc;}
+
+
+
+.dropdown-emoji-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+
+
+  z-index: 4;
+  height: 100px;
+  width: 100px;
+  overflow-y: scroll;
+
+  font-size: 12px;
+}
+
+
+.dropdown-emoji-content::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.dropdown-emoji-content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Links inside the dropdown */
+.dropdown-emoji-content button {
+  color: black;
+  padding: 10px;
+  
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-emoji-content button:hover {background-color: #ddd; width:100px;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-emoji-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropEmojibtn {background-color: #cccccc;}
+
+
+
+
+.colorBox {
+  display: flex;
+
+
+
+}
+
+.walletChangeInput {
+ 
+  border-radius: "5px"
+  height
+}
+
+.gridBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsBox {
+  height: 100px;
+  background: hsl(338, 91%, 86%);
+  width: 100px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 1px hsl(338, 91%, 86%);
+  padding: 10px;
+  margin-right: 60px;
+  
+}
+
+.boxheader {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.boxInfo {
+  font-size: 10px;
+  text-align: left;
+  line-height: 12px;
+  margin-top: 4px;
+
+}
+
+.gasBox {
+  height: 100px;
+  width: 100px;
+  background: white;
+  box-shadow: 0 0 10px 1px rgb(213, 213, 213);
+  border-radius: 20px;
+
+  padding: 10px;
+}
+.gasTitle {
+  text-align: left;
+  margin-top: 2px;
+
+}
+
+.blockBox {
+  height: 80px;
+  width: 260px;
+  background: #d0f4de;
+  box-shadow: 0 0 15px 1px #d0f4de;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+.blockTitle {
+  text-align: left;
+  margin-top: 7px;
+  font-size: 15px;
+
+}
+
+
+
+.priceBox {
+  width: 100px;
+  height: 100px;
+  background: #fcf6bd;
+  box-shadow: 0 0 15px 1px #fcf6bd;
+  margin-left: 2px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 20px;
+  font-size: 20px;
+
+}
+
+.learningBox {
+  height: 100px;
+  width: 150px;
+  background: #e3d5ca;
+  box-shadow: 0 0 15px 1px #e3d5ca;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 110px;
+  margin-top: -100px;
+
+}
+
+.learningTitle {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 6px;
+  
+}
+
+.nftBox {
+  height: 100px;
+  width: 150px;
+  background: #fbc4ab;
+  box-shadow: 0 0 15px 1px #fbc4ab;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 110px;
+  margin-top: 15px;
+
+
+}
+
+.nftTitle {
+  text-align: left;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.feeBox {
+  height: 100px;
+  width: 100px;
+  background: #a9def9;
+  box-shadow: 0 0 15px 1px #a9def9;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: -100px;
+  
+}
+
+.feeTitle {
+  text-align: left;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.priceTitle {
+  text-align: left;
+  margin-top: 5px;
+  font-size: 16px;
+
+}
+
+.articleBox {
+  border-bottom: 2px solid rgb(200, 200, 200);
+  text-align: left
+  
+  
+}
+
+.articleTitle {
+  font-size: 15px;
+  margin-top: 10px;
+
+}
+
+.articleDate {
+  font-size: 10px;
+  color: gray;
+  margin-top: 1px;
+}
+
+.articleDetails {
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+
+
+}
+
+.articleDisplay {
+  height: 400px;
+  overflow-y: scroll;
+  
+}
+
+.articleDisplay::-webkit-scrollbar {
+  display: none;
+}
+
+.articleDisplay {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.articleFooter {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  
+  
+}
+
+.gweiText {
+  color: white;
+  font-size: 26px;
+  margin-left: 40px;
+  margin-top: -20px;
+
+}
+
+.baseFeeText {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+
+.gweiFeeText {
+  font-size: 12px;
+  text-align: right;
+  margin-top: -19px;
+  margin-right: 10px;
+
+}
+
+.tokenList {
+  height: 400px;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+
+
+.nftList {
+  height: 390px;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+
+.nftList::-webkit-scrollbar {
+  display: none;
+}
+
+.nftList {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.tokenList::-webkit-scrollbar {
+  display: none;
+}
+
+.tokenList {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.tokenBlock {
+  text-align: left;
+  border-bottom: 1px solid rgb(200, 200, 200);
+
+}
+
+.tokenName {
+  font-size: 10px;
+  margin-left: 12px;
+  margin-top: 7px;
+  color: gray;
+
+}
+
+.tokenPrice {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 7px;
+  color: gray;
+
+
+
+}
+
+.pricesSection {
+  text-align: left;
+  margin-left: 10px;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.tokenInfoBox {
+  height: 280px;
+  overflow-y: scroll;
+  
+}
+
+.tokenInfoBox::-webkit-scrollbar {
+  display: none;
+}
+
+.tokenInfoBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.searchBox {
+  font-size: 16px;
+}
+
+.searchBox input {
+  background-color: rgb(213, 213, 213);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 250px;
+  text-align: center;
+  color: rgb(104, 103, 103);
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+
+.pagedropdown {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  height: 400px;
+  width: auto;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+
+.dropdown::-webkit-scrollbar {
+  display: none;
+}
+
+.dropdown {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.nftdropdown {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  height: 390px;
+  width: auto;
+  overflow-y: scroll;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+
+.nftdropdown::-webkit-scrollbar {
+  display: none;
+}
+
+.nftdropdown {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.gradientTitle {
+  width: 200px;
+  border-radius: 10px;
+  background: linear-gradient(.25turn, #c599ff, 60%, #fdc4df);
+  box-shadow: 5px 0px 20px rgb(188, 188, 188);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+
+
+.nftBar {
+  text-align: left;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  padding: 1px;
+  width: 270px;
+}
+
+
+
+.nftInfoBox {
+  height: 225px;
+  overflow-y: scroll;
+  
+}
+
+.nftInfoBox::-webkit-scrollbar {
+  display: none;
+}
+
+.nftInfoBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.nftlinkBox {
+  width: auto;
+  border-radius: 10px;
+  background: linear-gradient(.25turn, #c599ff, 60%, #bbd0ff);
+  box-shadow: 5px 0px 20px rgb(188, 188, 188);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  margin-right: 10px
+
+}
+
+.nftDescriptionBox {
+  font-size: 12px;
+  height: 80px;
+  overflow-y: scroll;
+
+}
+
+
+.nftDescriptionBox::-webkit-scrollbar {
+  display: none;
+}
+
+.nftDescriptionBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.securityBox {
+  background-color:#fff1e6 ;
+  border-radius: 10px;
+  padding: 10px;
+  height:100px;
+  overflow-y: scroll;
+}
+
+.securityBox::-webkit-scrollbar {
+  display: none;
+}
+
+.securityBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.generalBox {
+ 
+  background-color:#fde2e4 ;
+  border-radius: 10px;
+  padding: 10px;
+  height:100px;
+  overflow-y: scroll;
+  
+}
+.generalBox::-webkit-scrollbar {
+  display: none;
+}
+
+.generalBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.linkBox {
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
+
+  
+  
+}
+
+
+.receiverInput input{
+  text-align: center;
+  background-color: rgb(214, 214, 214);
+  padding: 10px;
+  border-radius: 20px;
+  width: 250px;
+  font-size: 14px;
+  margin-top: 10px
+
+}
+
+
+.submitTransactionButton {
+  width: 200px;
+  padding: 2px;
+  margin-top: 20px;
+  border-radius: 10px; 
+  background: linear-gradient(to right,#48cae4, #90e0ef, #ade8f4);
+  box-shadow: 0 0 25px 1px #b6ecf7;
+  color: white;
+  border: none;
+  animation: color 2s ease infinite;
+  border-radius: 10px;
+ 
+  bottom: 0;
+  
+}
+
+
+
+.transHistoryBox {
+    display: flex;
+    
+
+}
+
+
+
+
+.transHistory {
+  
+  height: 180px;
+  overflow-y: scroll;
+  
+  
+
+}
+
+.transHistory::-webkit-scrollbar {
+  display: none;
+}
+
+.transHistory {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.transStatusBox {
+  margin-top: 10px;
+  border: none;
+  width: 250px;
+  border-radius: 20px;
+  padding: 10px;
+  animation: color 2s ease infinite;
+  box-shadow: 0 0 25px 2px rgb(228, 228, 228);
+  
+}
+
+.displayWalletInfoBox {
+  height: 270px;
+
+  overflow-y: scroll;
+  margin-top: 5px;
+  
+}
+.displayWalletInfoBox::-webkit-scrollbar {
+  display: none;
+}
+
+.displayWalletInfoBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.nftDataBox {
+  margin-top: 5px;
+  height: 220px;
+  overflow-y: scroll;
+  text-align: left;
+
+}
+
+.nftDataBox::-webkit-scrollbar {
+  display: none;
+}
+
+.nftDataBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.nftScrollingHomepage {
+  height: 88px;
+  overflow-y: scroll;
+
+}
+
+
+.nftScrollingHomepage ::-webkit-scrollbar {
+  display: none;
+}
+
+.nftScrollingHomepage  {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.covergeButton {
+  width: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 5px;
+ 
+  background: linear-gradient(to right,#fad2e1, #fab4ce, #f78fb5);
+  box-shadow: 0 0 25px 1px #fad2e1;
+  color: white;
+  border: none;
+  
+}
+
+.convergeMessageBox {
+  z-index: 1;
+  background: white;
+  box-shadow: 0 0 25px 1px #d8d8d8;
+  position: absolute;
+  height: 200px;
+  width: 250px;
+  border-radius: 20px;
+  margin-top: 300px;
+  padding: 10px;
+}
+
+.backButton {
+  width: 100px;
+  padding: 3px;
+  border-radius: 10px; 
+  background: linear-gradient(to right,#48cae4, #90e0ef, #ade8f4);
+  box-shadow: 0 0 25px 1px #b6ecf7;
+  color: white;
+  border: none;
+  height: 30px;
+  font-size:14px;
+  bottom: 0;
+  margin-right: 5px
+}
+
+.continueConvergeButton {
+  width: 100px;
+  padding: 3px;
+  border-radius: 10px; 
+  background: linear-gradient(to right,#48e4a0, #69eab2, #90e2be);
+  box-shadow: 0 0 25px 1px #90e2be;
+  color: white;
+  border: none;
+  height: 30px;
+  font-size:14px;
+  margin-left: 5px;
+
+}
+
+.txDetailsBox {
+  height: 380px;
+  overflow-y: scroll;
+
+}
+
+
+.txDetailsBox::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.txDetailsBox {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
